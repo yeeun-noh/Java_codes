@@ -9,6 +9,7 @@ public class SpecialCharEx {
 		System.out.println('\n'); // 개행(new line) 문자를 출력하고 개행
 		System.out.println("\'Hello\'"); // 큰따옴표를 출력
 		System.out.println("c:\\");
+		System.out.println("\uac63"); // 유니코드를 이용하여 '걣'출력
 	}
 
 }
