@@ -2,7 +2,7 @@ package ch4;
 
 import java.util.Scanner;
 
-public class FlowExx9 {
+public class FlowEx9 {
 
 	public static void main(String[] args) {
 
