@@ -29,7 +29,7 @@ public class FlowExx10 {
 				grade = 'F';
 		} // end of switch
 
-		System.out.println("당신의 학점은: " + grade);
+		System.out.println("당신은 " + grade + "학점");
 	}
 
 }
