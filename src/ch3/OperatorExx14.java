@@ -1,6 +1,6 @@
 package ch3;
 
-public class OperatorExx13 {
+public class OperatorExx14 {
 	public static void main(String[] args) {
 		
 		 char c = 'a';
