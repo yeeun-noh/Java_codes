@@ -21,6 +21,8 @@ public class OperatorExx28 {
 		return tmp.substring(tmp.length()-32); // substring(int x, int y) : 문자열을 잘라낼때 사용 (String 에서 x부터  y번째 전까지만 출력, 나머지는 잘라냄)
 	}
 	
+}
+	
 //	(실행결과 :)
 //	
 //	x = 0XAB 		00000000000000000000000010101011
@@ -29,4 +31,3 @@ public class OperatorExx28 {
 //	0XAB & 0XF = 0XB 	00000000000000000000000000001011
 //	0XAB ^ 0XF = 0XA4 	00000000000000000000000010100100
 //	0XAB ^ 0XF ^ 0XF = 0XAB 00000000000000000000000010101011
-}
