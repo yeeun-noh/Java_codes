@@ -30,12 +30,12 @@ public class OperatorExx24 {
 
 //		(실행결과 :)
 //			
-//			x= 15, 10 < x && x < 20 = true
-//			x=  6, x % 2 == 0 || x % 3 == 0 && x % 6 != 0 = true
-//			x=  6, (x % 2 == 0 || x % 3 == 0) && x % 6 != 0 = false
-//			ch= '1', '0' <= ch && ch <= '9' = true
-//			ch= 'a', 'a' <= ch && ch <= 'z' = true
-//			ch= 'A', 'A' <= ch && ch <= 'Z' = true
-//			ch= 'q', ch == 'q' || ch == 'Q' = true
+//		x= 15, 10 < x && x < 20 = true
+//		x=  6, x % 2 == 0 || x % 3 == 0 && x % 6 != 0 = true
+//		x=  6, (x % 2 == 0 || x % 3 == 0) && x % 6 != 0 = false
+//		ch= '1', '0' <= ch && ch <= '9' = true
+//		ch= 'a', 'a' <= ch && ch <= 'z' = true
+//		ch= 'A', 'A' <= ch && ch <= 'Z' = true
+//		ch= 'q', ch == 'q' || ch == 'Q' = true
 	}
 }
