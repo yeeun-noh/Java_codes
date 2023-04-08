@@ -27,7 +27,7 @@ public class FlowExx10 {
 				break;
 			default:
 				grade = 'F';
-		} // end of switch
+		} // switch의 끝
 
 		System.out.println("당신은 " + grade + "학점");
 	}
