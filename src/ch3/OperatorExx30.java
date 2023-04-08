@@ -21,7 +21,7 @@ public class OperatorExx30 {
 		System.out.println();
 		
 		dec = -8;
-		System.out.printf("%d >> %d = %4d \t%s%n", dec, 0, dec >> 0, toBinaryString(dec >> 0));
+		System.out.printf("%d >> %d = %4d \t%s%n", dec, 0, dec >> 0, toBinaryString(dec >> 0)); // 4d인 이유는 숫자+부호 까지 4자리가 나오기 때문에 4자리 출력 
 		System.out.printf("%d >> %d = %4d \t%s%n", dec, 1, dec >> 1, toBinaryString(dec >> 1));
 		System.out.printf("%d >> %d = %4d \t%s%n", dec, 2, dec >> 2, toBinaryString(dec >> 2));
 		System.out.printf("%d << %d = %4d \t%s%n", dec, 0, dec << 0, toBinaryString(dec << 0));
@@ -30,7 +30,7 @@ public class OperatorExx30 {
 		System.out.println();
 
 		dec = 8;
-		System.out.printf("%d >> %2d = %4d \t%s%n", dec, 0, dec >> 0, toBinaryString(dec >> 0));
+		System.out.printf("%d >> %2d = %4d \t%s%n", dec, 0, dec >> 0, toBinaryString(dec >> 0)); // 2d인 이유는 두자리만 출력
 		System.out.printf("%d >> %2d = %4d \t%s%n", dec, 32, dec >> 32, toBinaryString(dec >> 32));
 	} // main의 끝
   
