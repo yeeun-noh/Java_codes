@@ -1,6 +1,6 @@
 package ch3;
 
-public class OperatorEx8 {
+public class OperatorEx08 {
 
 	public static void main(String[] args) {
 		
