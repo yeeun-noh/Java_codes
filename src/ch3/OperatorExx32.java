@@ -11,7 +11,7 @@ public class OperatorExx32 {
 		y= -5;
 		z= 0;
 		
-		// 조건연산자 ? :
+		// 조건연산자 ? : 사용
 		// (조건식) ? (식1 (true일때 실행)) : (식2 (false일때 실행)) 
 		absX = x >= 0 ? x : -x; // x의 값이 음수이면, 양수로 만듬
 		absY = y >= 0 ? y : -y;
