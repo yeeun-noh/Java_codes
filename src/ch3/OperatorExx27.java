@@ -18,7 +18,10 @@ public class OperatorExx27 {
 		System.out.printf("ch < 'a' || ch > 'z' = %b%n", ch < 'a' || ch > 'z');
 		System.out.printf("!('a' <= ch || ch >= 'z') = %b%n", !('a' <= ch || ch >= 'z'));
 		System.out.printf("  'a' <= ch || ch >= 'z' = %b%n", 'a' <= ch || ch >= 'z');
-		
+	}
+	
+}
+
 //		(실행결과 :)
 //			
 //		b = true
@@ -30,6 +33,4 @@ public class OperatorExx27 {
 //		ch < 'a' || ch > 'z' = true
 //		!('a' <= ch || ch >= 'z') = true
 //		  'a' <= ch || ch >= 'z' = false
-	}
-	
-}
+
