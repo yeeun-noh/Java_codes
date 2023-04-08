@@ -27,6 +27,8 @@ public class OperatorExx29 {
 		return tmp.substring(tmp.length()-32); // substring(int x, int y) : 문자열을 잘라낼때 사용 (String 에서 x부터  y번째 전까지만 출력, 나머지는 잘라냄)
 	}
 
+}
+
 //	(실행결과 :)
 //
 //	 p   = 10 	00000000000000000000000000001010
@@ -36,4 +38,3 @@ public class OperatorExx29 {
 //
 //	  n      = -10
 //	  ~(n-1) = 10
-}
