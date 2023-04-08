@@ -17,17 +17,17 @@ public class OperatorExx22 {
 		System.out.printf("d==d2   %b%n", d==d2);
 		System.out.printf("d2==f   %b%n", d2==f);
 		System.out.printf("(float)d==f  %b%n", (float)d==f);
-
-//		(실행결과 :)
-//		10.0==10.0f  true
-//		0.1==0.1f    false
-//		f =0.10000000149011612
-//		d =0.10000000000000000
-//		d2=0.10000000149011612
-//		d==f    false
-//		d==d2   false
-//		d2==f   true
-//		(float)d==f  true
 	}
 
 }
+
+//	(실행결과 :)
+//	10.0==10.0f  true
+//	0.1==0.1f    false
+//	f =0.10000000149011612
+//	d =0.10000000000000000
+//	d2=0.10000000149011612
+//	d==f    false
+//	d==d2   false
+//	d2==f   true
+//	(float)d==f  true
