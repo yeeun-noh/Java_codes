@@ -25,7 +25,7 @@ public class FlowEx7 {
 		// ->2. (int)0.0 <= (int)(Math.random() *3) < (int)3.0
 		// ->   0 <= (int)(Math.random() *3) < 3
 		// ->3. 0 +1 <= (int)(Math.random() *3) +1 < 3 +1
-		// ->   1 <= (int)(Math.random() *3) < 4
+		// ->   1 <= (int)(Math.random() *3) +1 < 4
 		
 		System.out.println("당신은 " + user + "입니다");
 		System.out.println("컴퓨터는 " + com + "입니다");
