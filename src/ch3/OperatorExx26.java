@@ -1,7 +1,5 @@
 package ch3;
 
-import java.util.Scanner;
-
 public class OperatorExx26 {
 
 	public static void main(String[] args) {
