@@ -22,15 +22,15 @@ public class OperatorExx27 {
 	
 }
 
-//		(실행결과 :)
-//			
-//		b = true
-//		!b = false
-//		!!b = true
-//		!!!b = false
+//	(실행결과 :)
+//		
+//	b = true
+//	!b = false
+//	!!b = true
+//	!!!b = false
 //
-//		ch = C
-//		ch < 'a' || ch > 'z' = true
-//		!('a' <= ch || ch >= 'z') = true
-//		  'a' <= ch || ch >= 'z' = false
+//	ch = C
+//	ch < 'a' || ch > 'z' = true
+//	!('a' <= ch || ch >= 'z') = true
+//	  'a' <= ch || ch >= 'z' = false
 
