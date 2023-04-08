@@ -33,6 +33,8 @@ public class OperatorExx30 {
 		System.out.printf("%d >> %2d = %4d \t%s%n", dec, 0, dec >> 0, toBinaryString(dec >> 0)); // 2d인 이유는 두자리만 출력
 		System.out.printf("%d >> %2d = %4d \t%s%n", dec, 32, dec >> 32, toBinaryString(dec >> 32));
 	} // main의 끝
+	
+}
   
 //	(실행결과 :)
 //	
@@ -52,4 +54,3 @@ public class OperatorExx30 {
 //
 //	8 >>  0 =    8 	00000000000000000000000000001000
 //	8 >> 32 =    8 	00000000000000000000000000001000
-}
