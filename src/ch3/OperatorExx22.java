@@ -22,6 +22,7 @@ public class OperatorExx22 {
 }
 
 //	(실행결과 :)
+//
 //	10.0==10.0f  true
 //	0.1==0.1f    false
 //	f =0.10000000149011612
