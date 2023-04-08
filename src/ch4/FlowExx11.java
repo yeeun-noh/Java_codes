@@ -2,7 +2,7 @@ package ch4;
 
 import java.util.Scanner;
 
-public class  {
+public class FlowExx11 {
 
 	public static void main(String[] args) {
 
