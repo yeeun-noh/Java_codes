@@ -1,7 +1,6 @@
 # Java_Chapter
 "Java의 정석"
-==========================================
-chapter01 자바를 시작하기 전에
+/nchapter01 자바를 시작하기 전에
 chapter02 변수(Variable)
 chapter03 연산자(Operator)
 chapter04 조건문과 반복문
