@@ -2,7 +2,6 @@
 
 "Java의 정석"
 
-<!--
 chapter01 자바를 시작하기 전에
 chapter02 변수(Variable)
 chapter03 연산자(Operator)
@@ -19,4 +18,3 @@ chapter13 쓰레드(Thread)
 chapter14 람다와 스트림
 chapter15 입출력(I/O)
 chapter16 네트워킹(Networking)
--->
