@@ -17,6 +17,12 @@ public class FlowExx23 {
 		while(i-- != 0) {
 			System.out.print(i + ", ");
 		}
+		
+// 		(같은방법:)
+// 		while(i!=0) {
+// 			i--;
+// 			System.out.print(i + ", ");
+// 		}
 	}
 
 }
