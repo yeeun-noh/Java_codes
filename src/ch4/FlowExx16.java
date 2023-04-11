@@ -1,6 +1,6 @@
 package ch4;
 
-public class FlowEx16 {
+public class FlowExx16 {
 
 	public static void main(String[] args) {
 
