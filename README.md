@@ -1,6 +1,6 @@
 # Java_Chapter
 
-"Java의 정석"
+:woman_technologist: "Java의 정석"
 
 - chapter01 자바를 시작하기 전에
 
