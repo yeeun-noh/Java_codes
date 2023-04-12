@@ -8,7 +8,7 @@ public class ArrayExx10 {
 		int[] numArr = new int[10];
 		
 		for(int i=0; i<numArr.length; i++) {
-			System.out.print(numArr[i] = (int)(Math.random()*10));
+			System.out.print(numArr[i] = (int)(Math.random()*10)); // 0~9의 임의의 수를 배열에 저장한것을 출력
 //			위의 문장은 아래의 두문장을 하나로 합친것임!
 //			numArr[i] = (int)(Math.random()*10);
 //			System.out.print(numArr[i]);
