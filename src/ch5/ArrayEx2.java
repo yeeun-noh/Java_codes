@@ -24,12 +24,12 @@ public class ArrayEx2 {
 		for(int i=0; i<arr1.length; i++) {
 			System.out.print(arr1[i]+ ", "); // '1, 2, 3, 4, 5, 6, 7, 8, 9, 10,' 출력
 		}
-		System.out.println(); //
+		System.out.println();
 		System.out.println(Arrays.toString(arr2)); // '[1, 1, 4, 9, 9, 5, 4, 3, 5, 1]' (랜덤)
 		System.out.println(Arrays.toString(arr3)); // 배열 arr3의 모든요소 '[100. 95, 80, 70, 60]' 이 출력
 		System.out.println(Arrays.toString(charArr)); // '[a, b, c, d]' 출력
-		System.out.println(arr3); //  배열을 가리키는 참조변수 arr3의 값, '[I@cac736f' 출력
 		System.out.println(charArr); //'abcd' 출력 : char배열만 println메서드로 출력하면 각 요소가 구분자없이 그대로 출력됨
+		System.out.println(arr3); // 배열을 가리키는 참조변수 arr3의 값, '[I@cac736f' 출력
 	}
 
 }
