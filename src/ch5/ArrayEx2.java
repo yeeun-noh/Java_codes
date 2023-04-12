@@ -8,7 +8,7 @@ public class ArrayEx2 {
 
 		int[] arr1 = new int[10];
 		int[] arr2 = new int[10];
-//		int[] arr3 = new int[10] {100, 95, 80, 70, 60};
+//		int[] arr3 = new int[] {100, 95, 80, 70, 60}; // new int[] 생략가능
 		int[] arr3 = {100, 95, 80, 70, 60};
 		char[] charArr = {'a', 'b', 'c', 'd'};
 		
