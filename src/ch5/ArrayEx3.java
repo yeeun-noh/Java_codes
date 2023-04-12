@@ -34,6 +34,7 @@ public class ArrayEx3 {
 
 }
 // (실행결과:)
+//
 // <변경전>
 // arr.length: 5
 // arr[0] : 1
