@@ -3,6 +3,8 @@ package ch5;
 public class ArrayExx17 {
 
 	public static void main(String[] args) {
+		// 커맨드 라인을 통해 입력받기:
+		
 		if(args.length !=3) {
 			System.out.println("usage: java ArrayEx17 NUM OP NUM2");
 			System.exit(0); // 프로그램 종료
