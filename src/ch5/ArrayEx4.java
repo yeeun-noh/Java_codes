@@ -15,7 +15,7 @@ public class ArrayEx4 {
 		char[] result = new char[abc.length + num.length];
 		System.arraycopy(abc, 0, result, 0, abc.length); // abc[0]에서 result[0]으로 abc.length개의 데이터를 복사
 		System.out.println(result); //ABCD
-		//현재 result 는 ABCD (나머지길이에는 0이 포함되어 있음 but 0은 출력 안됨!)
+		//현재 result 는 ABCD
 		System.arraycopy(num, 0, result, abc.length, num.length); // num[0]에서 result[abc.length]으로 num.length개의 데이터를 복사
 		System.out.println(result); //ABCD0123456789
 		System.out.println("----------------------------------");
