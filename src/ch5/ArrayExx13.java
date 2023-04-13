@@ -3,7 +3,10 @@ package ch5;
 public class ArrayExx13 {
 
 	public static void main(String[] args) {
-
+		// 16진수를 2진수로 변환:
+		// 16진수(A~F도 포함) => char[]로 처리
+		// 2진수(0000~1111) => String으로 처리
+		
 		char[] hex = {'C', 'A', 'F', 'E'};
 		
 		String[] binary = { "0000", "0001", "0010", "0011",
