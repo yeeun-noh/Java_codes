@@ -1,7 +1,7 @@
 package ch6;
 
 // 대표적인 재귀호출의 예시: 팩토리얼(factorial) 구하기
-// f(n) = n * f(n-1), 딘 f(1) = 1
+// f(n) = n * f(n-1), 단 f(1) = 1
 public class FactorialTest {
 
 	public static void main(String[] args) {
