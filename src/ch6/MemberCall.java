@@ -1,4 +1,5 @@
 package ch6;
+//보여주는 용:
 
 class MemberCall {	
 	int iv = 10; 		// iv는 인스턴스변수
