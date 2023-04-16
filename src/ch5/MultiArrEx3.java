@@ -3,7 +3,7 @@ package ch5;
 public class MultiArrEx3 {
 
 	public static void main(String[] args) {
-//  (3) 행렬의 곱셈 : 두 행렬(matrix)을 곱한 결과를 출력
+//		(3) 행렬의 곱셈 : 두 행렬(matrix)을 곱한 결과를 출력
 		
 		int[][] m1 = {
 			{1, 2, 3},
