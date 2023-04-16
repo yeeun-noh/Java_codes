@@ -11,9 +11,9 @@ public class MultiArrEx3 {
 		};
 		
 		int[][] m2 = {
-				{1, 2},
-				{3, 4},				
-				{5, 6}
+			{1, 2},
+			{3, 4},				
+			{5, 6}
 		};
 		
 		final int ROW 	 = m1.length; 	 //m1의 행 길이
