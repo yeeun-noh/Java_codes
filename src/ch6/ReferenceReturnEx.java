@@ -1,6 +1,6 @@
 package ch6;
 
-class Data{	int x; }
+class Data{ int x; }
 
 public class ReferenceReturnEx {
 
