@@ -1,6 +1,6 @@
 package ch6;
 
-class CardTest {
+class CardTest1 {
 	public static void main(String[] args) {
 		
 		//클래스변수는 객체생성없이 "클래스이름.클래스변수"로 직접 사용가능:
