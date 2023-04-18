@@ -10,9 +10,10 @@ class Car3 {
 	}
 	
 	Car3(Car3 c) { // 인스턴스의 복사를 위한 생성자
-		colour = c.colour;
-		gearType = c.gearType;
-		door = c.door;
+//		colour = c.colour;
+//		gearType = c.gearType;
+//		door = c.door;
+		this(c.colour, c.gearType, c.door);
 	}
 		
 	Car3(String colour, String gearType, int door) {
