@@ -6,7 +6,7 @@ class Car2 {
 	int door;
 	
 	Car2() {
-		this("white", "auto", 4); //Car2(String colour, String gearType, int door)를 호출!
+		this("white", "auto", 4);
 	}
 	
 	Car2(String colour) {
