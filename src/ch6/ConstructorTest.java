@@ -1,6 +1,10 @@
 package ch6;
 
-class Data1 { int value; }
+class Data1 {
+	int value;
+// 	기본생성자(default생성자)가 자동으로 추가되어 있음:
+//	Data1(){}
+}
 
 class Data2 { 
 	int value;
