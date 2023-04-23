@@ -1,5 +1,5 @@
 package ch7;
-// Vector클래스와 Vector클래스의 주요 메서드
+// Vector클래스와 Vector클래스의 주요 메서드 : 
 // - (1)boolean add(Object o)
 // - (2)boolean remove(Object o)
 // - (3)boolean isEmpty()
@@ -59,6 +59,7 @@ class Buyer {
 	int money = 1000;
 	int bonusPoint = 0;
 	Vector cart = new Vector(); //구입한 제품을 저장하는데 사용될 Vector객체
+	// Vector vectorname = new Vector();
 	
 	void buy(Product p) {
 		if(money < p.price) {
