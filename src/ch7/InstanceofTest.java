@@ -12,7 +12,7 @@ public class InstanceofTest {
 		
 		if(fe instanceof FireEngines)
 			System.out.println("This is a FireEngines instance.");
-    if(fe instanceof Cars)
+    		if(fe instanceof Cars)
 			System.out.println("This is a Cars instance.");
 		if(fe instanceof Object)
 			System.out.println("This is a Object instance.");
