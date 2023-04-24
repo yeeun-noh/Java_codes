@@ -26,7 +26,7 @@ public class FinalCardTest {
 	public static void main(String[] args) {
 		
 		Cards c = new Cards("HEART", 10);
-//		c.NUMBER = 5;   //에러, cannot assign a value to final variable NUMBER
+//		c.NUMBER = 5;   // 에러, cannot assign a value to final variable NUMBER
 		System.out.println(c.KIND);
 		System.out.println(c.NUMBER);
 		System.out.println(c); //==> System.out.println(c.toString());
