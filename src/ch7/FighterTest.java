@@ -1,4 +1,4 @@
-package exercise;
+package ch7;
 
 public class FighterTest {
 
