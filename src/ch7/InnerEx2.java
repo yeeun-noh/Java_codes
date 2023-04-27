@@ -1,11 +1,9 @@
 package ch7;
 
-import java.lang.reflect.Method;
-
 class OuterClass {
-	int value = 10;		//Outer.this.value
+	int value = 10;		//OuterClass.this.value
 
-	class Inner {
+	class InnerClass {
 		int value = 20;	//this.value
 		
 		void method() {
@@ -21,7 +19,7 @@ public class InnerEx2 {
 	
 	public static void main(String[] args) {
 		OuterClass outer = new OuterClass();
-		OuterClass.Inner inner = outer.new Inner();
+		OuterClass.InnerClass inner = outer.new InnerClass();
 		inner.method();
 	}
 }
