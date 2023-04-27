@@ -37,6 +37,7 @@ public class FruitBoxEx1 {
 
 		Box<Fruit> fruitBox = new Box<Fruit>();
 		Box<Apple> appleBox = new Box<Apple>();
+//		Box<Grape> grapeBox = new Box<Apple>(); //에러, 타입 불일치
 		Box<Grape> grapeBox = new Box<Grape>();
 		Box<Toy> toyBox = new Box<Toy>();
 		
