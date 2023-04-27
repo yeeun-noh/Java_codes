@@ -45,11 +45,11 @@ public class FruitBoxEx1 {
 		fruitBox.add(new Fruit());
 		fruitBox.add(new Apple());
 		
-		// void add(T item) 에 T대신 Apple이오기 때문에 받을수 있는 타입은 Apple만 가능:
+		// void add(T item) 에 T대신 Apple이오기 때문에 받을수 있는 타입은 Apple만 가능 (Apple를 상속하는 클래스없음):
 		appleBox.add(new Apple());
 //		appleBox.add(new Toy()); => 불가능
 		
-		// void add(T item) 에 T대신 Toy이오기 때문에 받을수 있는 타입은 Toy만 가능:
+		// void add(T item) 에 T대신 Toy이오기 때문에 받을수 있는 타입은 Toy만 가능 (Toy를 상속하는 클래스없음):
 		toyBox.add(new Toy());
 //		toyBox.add(new Apple()); => 불가능
 		
