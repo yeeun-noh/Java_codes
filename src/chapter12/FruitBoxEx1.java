@@ -1,4 +1,4 @@
-package ch12;
+package chapter12;
 //지네릭스(Generics)
 
 import java.util.ArrayList;
