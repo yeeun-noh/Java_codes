@@ -3,6 +3,8 @@ package chapeter12;
 
 import java.util.ArrayList;
 
+interface Eatable {}
+
 class Fruit2 implements Eatable {
 	@Override
 	public String toString() {
@@ -31,7 +33,6 @@ class Toy2 {
 	}
 }
 
-interface Eatable {}
 
 public class FruitBoxEx2 {
 
