@@ -42,7 +42,7 @@ public class FruitBoxEx2 {
 		FruitBox<Apple2> appleBox = new FruitBox<Apple2>();
 //		FruitBox<Grape> grapeBox = new FruitBox<Apple>(); //에러, 타입 불일치
 		FruitBox<Grape2> grapeBox = new FruitBox<Grape2>();
-		FruitBox<Toy2> toyBox = new FruitBox<Toy2>();
+//		FruitBox<Toy2> toyBox = new FruitBox<Toy2>(); //에러, <T extends Fruit2 & Eatable>에 포함되지 않으므로
 		
 		fruitBox.add(new Fruit2());
 		fruitBox.add(new Apple2());
@@ -58,7 +58,9 @@ public class FruitBoxEx2 {
 
 }
 
-class FruitBox<T> {
+class FruitBox<T extends Fruit2 & Eatable> extends Box2<T> {};
+
+class Box2<T> {
 	ArrayList<T> list = new ArrayList<T>();
 	void add(T item) {
 		list.add(item);
