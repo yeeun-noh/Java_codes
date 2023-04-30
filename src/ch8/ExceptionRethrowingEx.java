@@ -9,7 +9,7 @@ public class ExceptionRethrowingEx {
 		} catch(Exception e) {
 			System.out.println("main메서드에서 예외가 처리됨");
 		}
-		System.out.println("--------------------------");
+		System.out.println("------------------------------------");
 		try {
 			method2();
 		} catch(Exception e) {
@@ -47,7 +47,7 @@ public class ExceptionRethrowingEx {
 
 method1()메서드에서 예외가 처리됨
 main메서드에서 예외가 처리됨
---------------------------
+------------------------------------
 method2()이 호출됨
 method2()의 fianlly블럭이 실행됨
 
