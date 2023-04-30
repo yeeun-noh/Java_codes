@@ -16,8 +16,8 @@ public class ExceptionEx7 {
 			if (e instanceof ArithmeticException)
 				System.out.println("true");
 			System.out.println("ArithmeticException");
-		} catch (Exception e) { 		//ArithmeticException을 제외한 모든 예외가 처리됨!
-			System.out.println("Exception");
+		} catch (Exception e) { 		 //ArithmeticException을 제외한 모든 예외가 처리됨!
+			System.out.println("Exception"); //ArithmeticException을 제외한 예외가 없으므로, 실행되지 않음!
 		}
 		System.out.println(6);
 	}
