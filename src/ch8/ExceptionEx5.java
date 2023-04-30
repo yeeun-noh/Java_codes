@@ -10,7 +10,6 @@ public class ExceptionEx5 {
 			System.out.println(3);
 			System.out.println(0/0); 	//0으로 나눠서 고의로 ArithmeticException 발생시킴!
 			System.out.println(4);		//실행되지 않음!
-
 		} catch (ArithmeticException e) {
 			System.out.println(5);
 		}
