@@ -42,7 +42,7 @@ class GrapeCompany implements Comparator<Grape4> {
 
 class FruitCompany implements Comparator<Fruit4> {
 	public int compare(Fruit4 t1, Fruit4 t2) {
-		return t2.weight - t1.weight;
+		return t1.weight - t2.weight;
 	}
 }
 
@@ -91,7 +91,7 @@ class Box4<T> {
 [Green Apple:(300), Green Apple:(200), Green Apple:(100)]
 [Green Grape:(400), Green Grape:(300), Green Grape:(200)]
 
-[Green Apple:(300), Green Apple:(200), Green Apple:(100)]
-[Green Grape:(400), Green Grape:(300), Green Grape:(200)]
+[Green Apple:(100), Green Apple:(200), Green Apple:(300)]
+[Green Grape:(200), Green Grape:(300), Green Grape:(400)]
 
 */
