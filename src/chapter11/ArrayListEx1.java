@@ -102,5 +102,4 @@ list2: [AA, B, C, A]
 list1: [0, 2, 4]
 list2: [AA, C, A]
 
-
 */
