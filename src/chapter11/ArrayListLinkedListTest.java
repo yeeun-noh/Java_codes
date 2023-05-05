@@ -1,8 +1,7 @@
 package chapter11;
 // ArrayList와 LinkedList 성능 차이
-//	결론:
-//	순차적으로 추가/삭제하는 경우에는 ArrayList가 LinkedList보다 빠름
-//	중간데이터를 추가/삭제하는 경우에는 LinkedList가 ArrayList보다 빠름
+// - 순차적으로 추가/삭제하는 경우에는 ArrayList가 LinkedList보다 빠름
+// - 중간데이터를 추가/삭제하는 경우에는 LinkedList가 ArrayList보다 빠름
 
 import java.util.*;
 
