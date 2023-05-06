@@ -3,7 +3,6 @@ package chapter11;
 
 import java.util.*;
 
-
 public class ComparatorEx {
 
 	public static void main(String[] args) {
