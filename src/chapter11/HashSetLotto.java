@@ -18,7 +18,7 @@ public class HashSetLotto {
 
 		//set을 순서대로 정렬:
 		List list = new LinkedList(set); //LinkedList(Collection c)
-		Collections.sort(list);			 //Collections.sort(List list)
+		Collections.sort(list);		 //Collections.sort(List list)
 		System.out.println(list);
 	}
 	
