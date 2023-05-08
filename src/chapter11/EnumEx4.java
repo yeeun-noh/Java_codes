@@ -66,10 +66,12 @@ public class EnumEx4 {
 
 /* (실행 결과:)
 
-bus fare: 10000
-train fare: 1500
-ship fare: 10000
-airplane fare: 30000
+t1: BUS, 0
+t2: BUS, 0
+t3: TRAIN, 1
+t4: SHIP, 2
+t5: SOUTH, 3
+t1==t2 ? true
+t1.compareTo(t3): -1
 
 */
-
