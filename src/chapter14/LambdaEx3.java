@@ -11,9 +11,9 @@ class Outer {
 	class Inner { //내부클래스
 		int val = 20; //this.val
 
-		void method(int i) { // == void method(final int i) {
+		void method(int i) { 	// == void method(final int i) {
 			int val = 30;	// == final int val = 0;
-		//	i = 10;			//에러, 상수(final)의 값을 변경할수 없음!
+		//	i = 10;		//에러, 상수(final)의 값을 변경할수 없음!
 
 			MyFunctionn f = () -> {
 				System.out.println("             i: " + i);
