@@ -12,7 +12,7 @@ public class LambdaEx7 {
 		Function<String, Integer> f = s-> Integer.parseInt(s, 16);
 		Function<Integer, String> g = i-> Integer.toBinaryString(i);
 
-		Function<String, String> h = f.andThen(g); 		//f + g => h
+		Function<String, String> h = f.andThen(g); 	//f + g => h
 		Function<Integer, Integer> h2 = f.compose(g);	//g + f => h
 		
 		System.out.println(h.apply("FF"));	//"FF" => 255 => "11111111"
@@ -28,7 +28,7 @@ public class LambdaEx7 {
 		Predicate<Integer> r = i-> i % 2 == 0;
 		Predicate<Integer> notP = p.negate(); //i >= 100
 		
-		Predicate<Integer> all = notP.and(q).or(r); //100<=i && i<200 || i%2==0
+		Predicate<Integer> all = notP.and(q).or(r);  //100<=i && i<200 || i%2==0
 		Predicate<Integer> all2 = notP.and(q.or(r)); //100<=i && (i<200 || i%2==0)
 
 		System.out.println(all.test(150)); //true
@@ -44,6 +44,7 @@ public class LambdaEx7 {
 		
 		//위의 두문장을 하나로 합치면:
 		boolean result2 = Predicate.isEqual(str1).test(str2);
+		
 		System.out.println(result);  //true	
 		System.out.println(result2); //true	
 	}
